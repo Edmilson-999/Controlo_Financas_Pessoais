@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/tituloEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Título"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/valorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Valor"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/categoriaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Categoria"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+    <Button
+            android:id="@+id/salvarButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/green"
+            android:textSize="19sp"
+            android:text="Salvar"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/cancelarButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:background="@color/red"
+            android:textSize="19sp"
+            android:text="Cancelar"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>

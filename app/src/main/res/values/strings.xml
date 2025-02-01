@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinançasPessoais</string>
+    <string name="saldo_atual">Saldo Atual: 0.00</string>
+    <string name="total_receitas">Total de Receitas: 0.00</string>
+    <string name="total_despesas">Total de Despesas: 0.00</string>
+    <string name="adicionar_receita">Adicionar Receita</string>
+    <string name="adicionar_despesa">Adicionar Despesa</string>
+    <string name="visualizar_transacoes">Visualizar Transações</string>
+    <string name="ver_grafico">Ver Gráfico</string>
+</resources>

@@ -1,0 +1,78 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Título"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_valor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Valor"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/sp_categoria"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_data"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Selecionar Data"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_data_selecionada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data: Não selecionada"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_salvar"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Salvar"
+                android:textSize="19sp"
+                android:background="@color/green"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="30dp"/>
+
+            <Button
+                android:id="@+id/btn_cancelar"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@color/red"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:text="Cancelar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
